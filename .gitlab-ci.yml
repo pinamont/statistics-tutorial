@@ -1,0 +1,57 @@
+stages:
+  - compile
+  - test
+
+.compile: &compile
+  stage: compile
+  artifacts:
+    expire_in: 1d
+    paths:
+      - build  
+  script:
+    - pwd
+    - ls -l
+    - cd CommonStatTools
+    - mkdir build
+    - cd build 
+    - cmake ..
+    - make
+
+.test: &test
+  stage: test
+  script:
+    - cd build
+    - ctest --output-on-failure
+  artifacts:
+    expire_in: 1mo
+    paths:
+      - validation
+
+.asg: &asg
+  image: atlas/analysisbase:21.2.190
+  before_script:  
+    - source /home/atlas/release_setup.sh  
+
+.root: &root
+  image: rootproject/root
+    
+compile_root:
+  <<: *compile
+  <<: *root
+
+compile_asg:
+  <<: *compile
+  <<: *asg  
+
+test_root:
+  <<: *test
+  <<: *root
+  dependencies:
+    - compile_root
+
+test_asg:
+  <<: *test
+  <<: *asg
+  dependencies:
+    - compile_asg  
+
