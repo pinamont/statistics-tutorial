@@ -31,7 +31,7 @@ We will follow these steps:
  - [ ] Create a mock-up workspace with pyROOT+HistFactory
  - [ ] Create a mock-up workspace with pyhf
  - [X] Visualize the content of the workspace with ROOT
- - [ ] Visualize the content of the workspace with CommonStatTools
+ - [X] Visualize the content of the workspace with CommonStatTools
  - [ ] Compare two workspaces with CommonStatTools
  - [ ] Print pre- and post-fit yield tables with CommonStatTools
  - [ ] Calculate limits using asymptotic formulae
