@@ -1,0 +1,18 @@
+<!--
+This xml file created automatically on: 
+2022-6-20
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="./ws/ATLASIT_prova" >
+
+
+  <Input>./xml/ATLASIT_prova_ljets_HThad_5j3b.xml</Input>
+  <Input>./xml/ATLASIT_prova_ljets_Mbb_ge6jge4b.xml</Input>
+
+  <Measurement Name="ATLASIT_prova" Lumi="1" LumiRelErr="0" ExportOnly="True"  >
+    <POI>mu_ttH</POI>  
+    <ParamSetting Const="True">Lumi</ParamSetting>
+  </Measurement> 
+
+</Combination>

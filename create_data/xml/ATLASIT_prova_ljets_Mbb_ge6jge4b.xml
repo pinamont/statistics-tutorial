@@ -1,0 +1,38 @@
+<!--
+This xml file created automatically on: 
+2022-6-20
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="ljets_Mbb_ge6jge4b" InputFile="" >
+
+    <Data HistoName="ljets_Mbb_ge6jge4b_Data_regBin" InputFile="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root" HistoPath="ljets_Mbb_ge6jge4b/Data/nominal"  /> 
+
+    <StatErrorConfig RelErrorThreshold="0.05" ConstraintType="Poisson" /> 
+
+    <Sample Name="ttH"  HistoPath="ljets_Mbb_ge6jge4b/ttH/nominal"  HistoName="ljets_Mbb_ge6jge4b_ttH_regBin"  InputFile="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root"  NormalizeByTheory="False" >
+      <OverallSys Name="lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="ttXsec"  High="1.1"  Low="0.9"   /> 
+      <OverallSys Name="JES_Scenario1_NP1"  High="0.822951"  Low="1.17705"   /> 
+      <NormFactor Name="mu_ttH"  Val="0"  High="20"  Low="-10"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="ttbar"  HistoPath="ljets_Mbb_ge6jge4b/ttbar/nominal"  HistoName="ljets_Mbb_ge6jge4b_ttbar_regBin"  InputFile="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root"  NormalizeByTheory="False" >
+      <OverallSys Name="lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="ttXsec"  High="1.06"  Low="0.94"   /> 
+      <OverallSys Name="JES_Scenario1_NP1"  High="1.07358"  Low="0.926422"   /> 
+      <NormFactor Name="mu_tt"  Val="1"  High="20"  Low="0"  Const="False"   /> 
+      <HistoSys Name="JES_Scenario1_NP1"  HistoFileLow="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root"  HistoNameLow="ljets_Mbb_ge6jge4b_ttbar_JES_Scenario1_NP1_Shape_Down_regBin"  HistoPathLow="ljets_Mbb_ge6jge4b/ttbar/JES_Scenario1_NP1"  HistoFileHigh="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root"  HistoNameHigh="ljets_Mbb_ge6jge4b_ttbar_JES_Scenario1_NP1_Shape_Up_regBin"  HistoPathHigh="ljets_Mbb_ge6jge4b/ttbar/JES_Scenario1_NP1"   /> 
+    </Sample>
+
+
+    <Sample Name="singleTop"  HistoPath="ljets_Mbb_ge6jge4b/singleTop/nominal"  HistoName="ljets_Mbb_ge6jge4b_singleTop_regBin"  InputFile="../data/ttH2015_forATLASit_ljets_Mbb_ge6jge4b_histos.root"  NormalizeByTheory="False" >
+      <OverallSys Name="lumi"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="stXsec"  High="1.05"  Low="0.95"   /> 
+      <OverallSys Name="JES_Scenario1_NP1"  High="1.0786"  Low="0.892136"   /> 
+    </Sample>
+
+
+
+  </Channel>  
