@@ -33,7 +33,7 @@ We will follow these steps:
  - [X] Visualize the content of the workspace with ROOT
  - [X] Visualize the content of the workspace with CommonStatTools
  - [X] Compare two workspaces with CommonStatTools
- - [ ] Print pre- and post-fit yield tables with CommonStatTools
+ - [X] Print pre- and post-fit yield tables with CommonStatTools
  - [ ] Calculate limits using asymptotic formulae
  - [ ] Calculate limits using toys
  - [ ] Calculate local p0 using asymptotic formulae
@@ -42,6 +42,6 @@ We will follow these steps:
  - [ ] Run fit cross-checks
  - [ ] Look at fit covariance matrices
  - [ ] Rank nuisance parameters
- - [ ] Evaluate impact of nuisance parameters over the background yield in a signal region
+ - [X] Evaluate impact of nuisance parameters over the background yield in a signal region
 
 
