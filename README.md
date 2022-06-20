@@ -30,7 +30,7 @@ git clone --recurse-submodules ssh://git@gitlab.cern.ch:7999/vippolit/statistics
 We will follow these steps:
  - [ ] Create a mock-up workspace with pyROOT+HistFactory
  - [ ] Create a mock-up workspace with pyhf
- - [ ] Visualize the content of the workspace with ROOT
+ - [X] Visualize the content of the workspace with ROOT
  - [ ] Visualize the content of the workspace with CommonStatTools
  - [ ] Compare two workspaces with CommonStatTools
  - [ ] Print pre- and post-fit yield tables with CommonStatTools
