@@ -95,7 +95,5 @@ We will follow these steps:
  - [ ] Run fit cross-checks
  - [X] Look at fit covariance matrices
  - [X] Rank nuisance parameters (Michele)
- - [ ] Grouped impact table (Michele)
+ - [X] Grouped impact table (Michele)
  - [X] Evaluate impact of nuisance parameters over the background yield in a signal region
-
-
