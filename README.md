@@ -80,6 +80,36 @@ touch config.sh
  7. simply double-click on any notebook to open it; cell execution is performed with SHIFT+ENTER (but please do visit https://swan.web.cern.ch/swan/ for more info)
 
 
+### Step by step
+
+    1. Create a workspace from exisiting histograms and inspect it:
+        - directory `create_data`
+        - `create_workspace_minimal.ipynb`: very simple example of workspace creation
+        - `create_workspace.ipynb`: actual excercise we perform to create the workspace needed for the next steps
+        - `inspect_workspace.ipynb`: workspace inspection, visualization of stored histograms, comparison of workspaces
+        
+    1. Perform fits and understand results:
+        - direcotry `fit`
+        - `simple_fit.ipynb`: how to perform a fit and how to get fit results
+        - `covmatrix.ipynb`: visualization of correlation matrix of the fitted parameters
+        - `postfit_plots.ipynb`: very simple visualization of post-fit distributions from workspace
+        - `yield_tables.ipynb`: more elaborate inspection of effect of fit results, creating yield tables
+        
+    1. Quantify the effect of the systematics on a measurement:
+        - directory `systematics`
+        - `ranking.ipynb`
+        - `impact_table.ipynb`
+        
+    1. Exclusion limit extraction:
+        - directory `limit`
+        - `asymptotics.ipynb`
+        
+    1. Quantification of signal significance:
+        - directory `p_value`
+        - `pvalues.ipynb`
+        
+    
+
 ## Structure
 We will follow these steps:
  - [X] Create a mock-up workspace with pyROOT+HistFactory
