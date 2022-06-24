@@ -101,8 +101,8 @@ touch config.sh
     - directory `limit`
     - [asymptotics.ipynb](limit/asymptotics.ipynb)
 1. Quantification of signal significance:
-    - directory `p_value`
-    - [pvalues.ipynb](p_value/pvalues.ipynb)
+    - directory `p_values`
+    - [pvalues.ipynb](p_values/pvalues.ipynb)
 
 
 ## Structure
