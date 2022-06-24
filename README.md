@@ -2,6 +2,7 @@
 
 ## Authors
 Valerio Ippolito - INFN Sezione di Roma
+
 Michele Pinamonti - INFN Sezione di Trieste
 
 ## Scope
@@ -99,26 +100,8 @@ touch config.sh
     - [impact_table.ipynb](systematics/impact_table.ipynb)
 1. Exclusion limit extraction:
     - directory `limit`
-    - [asymptotics.ipynb](limit/asymptotics.ipynb)
+    - [asymptotics.ipynb](limit/asymptotics.ipynb): profile-likelihood ratio limits with asymptotic formulae
+    - [toys.ipynb](limit/toys.ipynb): setting limits with toys (or asymptotics) for profile-likelihood and other test statistics
 1. Quantification of signal significance:
     - directory `p_values`
     - [pvalues.ipynb](p_values/pvalues.ipynb)
-
-
-## Structure
-We will follow these steps:
- - [X] Create a mock-up workspace with pyROOT+HistFactory
- - [X] Visualize the content of the workspace with ROOT
- - [X] Visualize the content of the workspace with CommonStatTools
- - [X] Compare two workspaces with CommonStatTools
- - [X] Print pre- and post-fit yield tables with CommonStatTools
- - [X] Calculate limits using asymptotic formulae
- - [ ] Calculate limits using toys
- - [X] Calculate local p0 using asymptotic formulae
- - [ ] Calculate local p0 using toys
- - [X] Calculate global p0
- - [ ] Run fit cross-checks
- - [X] Look at fit covariance matrices
- - [X] Rank nuisance parameters (Michele)
- - [X] Grouped impact table (Michele)
- - [X] Evaluate impact of nuisance parameters over the background yield in a signal region
