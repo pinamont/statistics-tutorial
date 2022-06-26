@@ -83,10 +83,10 @@ touch config.sh
 
 ### Step by step
 
-1. Create a workspace from exisiting histograms and inspect it:
+1. Create a workspace from existing histograms and inspect it:
     - directory `create_data`
     - [create_workspace_minimal.ipynb](create_data/create_workspace_minimal.ipynb): very simple example of workspace creation
-    - [create_workspace.ipynb](create_data/create_workspace.ipynb): actual excercise we perform to create the workspace needed for the next steps
+    - [create_workspace.ipynb](create_data/create_workspace.ipynb): actual exercise we perform to create the workspace needed for the next steps
     - [inspect_workspace.ipynb](create_data/inspect_workspace.ipynb): workspace inspection, visualization of stored histograms, comparison of workspaces
 1. Perform fits and understand results:
     - directory `fit`
