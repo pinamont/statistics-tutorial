@@ -1,52 +1,31 @@
 # ATLAS Italia Statistics Tutorial 2022
 
 ## Authors
-Valerio Ippolito - INFN Sezione di Roma
 
 Michele Pinamonti - INFN Sezione di Trieste
+
+*credits to Valerio Ippolito - INFN Sezione di Roma*
 
 ## Scope
 We will go through the typical steps of defining, filling up and analysing a workspace.
 
 ## Preliminaries
-### Setup
-On lxplus:
-```
-setupATLAS
-lsetup git
-lsetup "root 6.20.06-x86_64-centos7-gcc8-opt"
-lsetup cmake
-cd CommonStatTools
-mkdir build
-cd build 
-cmake ..
-make
-cd ..
-```
 
-On a different cluster:
-```
-export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
-source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
-lsetup git
-localSetupPython --pythonVersion=3.7.4-x86_64-centos7
-lsetup "root 6.20.06-x86_64-centos7-gcc8-opt"
-lsetup cmake
-cd CommonStatTools
-mkdir build
-cd build 
-cmake ..
-make
-cd ..
-```
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD)
 
-### Check-out 
-```
-git clone --recurse-submodules ssh://git@gitlab.cern.ch:7999/vippolit/statistics-tutorial.git
-```
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD
+ 
+### Run on Binder
+The easiest way to run notebooks is via [Binder](https://mybinder.org/):
 
-### SWAN cluster
-The easiest way to run notebooks is [SWAN](http://swan.cern.ch), a sort of Google Colab provided by CERN which enables access to EOS and other nice stuff:
+ 1. go to https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD ;
+
+ 2. have fun;
+ 
+
+
+<!--The easiest way to run notebooks is [SWAN](http://swan.cern.ch), a sort of Google Colab provided by CERN which enables access to EOS and other nice stuff:
 
  1. go on http://cernbox.cern.ch and make sure you have a personal EOS folder
  
@@ -55,7 +34,7 @@ The easiest way to run notebooks is [SWAN](http://swan.cern.ch), a sort of Googl
 mkdir SWAN_projects
 cd SWAN_projects
 touch config.sh
-```
+```-->
        
  3. edit the file so that it shows something like
  ```
@@ -105,3 +84,5 @@ touch config.sh
 1. Quantification of signal significance:
     - directory `p_values`
     - [pvalues.ipynb](p_values/pvalues.ipynb)
+
+ 
