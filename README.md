@@ -1,4 +1,4 @@
-# ATLAS Italia Statistics Tutorial 2022
+# Statistics Tutorial - ICTP ATLAS Open Data 2022
 
 ## Authors
 
