@@ -3,6 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - root=6.22.0
-  - numpy
-  - pandas
-  - matplotlib
+  #- numpy
+  #- pandas
+  #- matplotlib
