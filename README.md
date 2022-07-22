@@ -9,48 +9,56 @@ Michele Pinamonti - INFN Sezione di Trieste
 ## Scope
 We will go through the typical steps of defining, filling up and analysing a workspace.
 
+
 ## Preliminaries
 
-There are two main ways to run this tutorial:
+There are two main ways to run this tutorial: Binder and SWAN.
 
- 1. via [Swan](https://swan.web.cern.ch/swan/) - CERN account needed:
- 
-    1. go to [cernbox](http://cernbox.cern.ch) and make sure you have a personal EOS folder;
-    
-    1. in cernbox, go to `SWAN_projetcs` (single click from the web-browser interface) and create a new text file, with this content:
-    
-            #!/bin/bash
-            export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.9/site-packages:$PYTHONPATH
-    
-    1. go to [https://swan-k8s.cern.ch/hub/spawn](https://swan-k8s.cern.ch/hub/spawn);
-    
-    1. configure an environment with the software stack 101, CentOS7 (gcc8) as platform, 2 cores, 8 GB of memory and no spark cluster; make sure you specify the environment script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
-    
-    1. create a new project (clicking on the `+` at the bottom right, "Add new projetc"), and call it `statistics-tutorial-ICTP`;
-    
-    1. from a SWAN terminal window (which you can open clicking on the `>_` icon on the top right of the webpage), go to the `$CERNBOX_HOME/SWAN_projects/statistics-tutorial-ICTP` directory and checkout the repository with:
-    
-            git clone git@github.com:pinamont/statistics-tutorial.git
-            
-        or
-            
-            git clone https://github.com/pinamont/statistics-tutorial.git
-            
-    1. now click on the `statistics-tutorial` and finally click on hello_world.ipynb; this is the way to open a notebook;
-    
-    1. simply double-click on any notebook to open it; cell execution is performed with `Ctrl`+`Enter`.
-    
+
+### Binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD)
 
- 1. via [Binder](https://mybinder.org/) - no CERN account needed:
- 
-    1. go to [https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD](https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD);
+[Binder](https://mybinder.org/) - no CERN account needed:
+
+  1. go to [https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD](https://mybinder.org/v2/gh/pinamont/statistics-tutorial/HEAD);
     it will take a while, but in the end you should get a working environment;
 
-    1. now double-click on hello_world.ipynb; this is the way to open a notebook;
+  1. now double-click on hello_world.ipynb; this is the way to open a notebook;
     
-    1. simply double-click on any notebook to open it; cell execution is performed with `Ctrl`+`Enter`.
+  1. simply double-click on any notebook to open it; cell execution is performed with `Ctrl`+`Enter`.
+
+
+### SWAN
+
+[SWAN](https://swan.web.cern.ch/swan/) - CERN account needed:
+ 
+  1. go to [cernbox](http://cernbox.cern.ch) and make sure you have a personal EOS folder;
+
+  1. in cernbox, go to `SWAN_projetcs` (single click from the web-browser interface) and create a new text file, with this content:
+
+          #!/bin/bash
+          export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.9/site-packages:$PYTHONPATH
+
+  1. go to [https://swan-k8s.cern.ch/hub/spawn](https://swan-k8s.cern.ch/hub/spawn);
+
+  1. configure an environment with the software stack 101, CentOS7 (gcc8) as platform, 2 cores, 8 GB of memory and no spark cluster; make sure you specify the environment script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
+
+  1. create a new project (clicking on the `+` at the bottom right, "Add new projetc"), and call it `statistics-tutorial-ICTP`;
+
+  1. from a SWAN terminal window (which you can open clicking on the `>_` icon on the top right of the webpage), go to the `$CERNBOX_HOME/SWAN_projects/statistics-tutorial-ICTP` directory and checkout the repository with:
+
+          git clone git@github.com:pinamont/statistics-tutorial.git
+
+      or
+
+          git clone https://github.com/pinamont/statistics-tutorial.git
+
+  1. now click on the `statistics-tutorial` and finally click on hello_world.ipynb; this is the way to open a notebook;
+
+  1. simply double-click on any notebook to open it; cell execution is performed with `Ctrl`+`Enter`.
+    
+
 
 
 ### Step by step
