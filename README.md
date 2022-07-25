@@ -39,9 +39,10 @@ There are two main ways to run this tutorial: Binder and SWAN.
 [SWAN](https://swan.web.cern.ch/swan/) - CERN account needed:
 
   1. *preliminary steps*: 
-    1. go to [cernbox](http://cernbox.cern.ch) and make sure you have a personal EOS folder;
+  
+      i. go to [cernbox](http://cernbox.cern.ch) and make sure you have a personal EOS folder;
 
-    1. in cernbox, go to `SWAN_projetcs/` (single click from the web-browser interface) and create a new text file `config.sh`, with this content:
+      i. in cernbox, go to `SWAN_projetcs/` (single click from the web-browser interface) and create a new text file `config.sh`, with this content:
 
             #!/bin/bash
             export PYTHONPATH=$CERNBOX_HOME/.local/lib/python3.9/site-packages:$PYTHONPATH
