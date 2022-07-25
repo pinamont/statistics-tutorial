@@ -32,7 +32,7 @@ There are two main ways to run this tutorial: Binder and SWAN.
 
 ### SWAN
 
-[<img class="open_in_swan" data-path="basic" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" height=100>][gallery_url]
+[<img class="open_in_swan" data-path="basic" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png" height=20>][gallery_url]
 
 [gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git
 
