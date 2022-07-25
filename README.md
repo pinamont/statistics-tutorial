@@ -6,6 +6,7 @@ Michele Pinamonti - INFN Sezione di Trieste
 
 *credits to: Valerio Ippolito - INFN Sezione di Roma*
 
+
 ## Scope
 We will go through the typical steps of defining, filling up and analysing a workspace.
 
@@ -31,6 +32,10 @@ There are two main ways to run this tutorial: Binder and SWAN.
 
 ### SWAN
 
+[<img class="open_in_swan" data-path="basic" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url]
+
+[gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git
+
 [SWAN](https://swan.web.cern.ch/swan/) - CERN account needed:
  
   1. go to [cernbox](http://cernbox.cern.ch) and make sure you have a personal EOS folder;
@@ -42,7 +47,7 @@ There are two main ways to run this tutorial: Binder and SWAN.
 
   1. go to [https://swan-k8s.cern.ch/hub/spawn](https://swan-k8s.cern.ch/hub/spawn);
 
-  1. configure an environment with the software stack 101, CentOS7 (gcc8) as platform, 2 cores, 8 GB of memory and no spark cluster; make sure you specify the environment script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
+  1. configure an environment with the software stack 101, CentOS7 (gcc8) as platform (NB: this is **not** the default, so you need to change to this - **don't use** the default gcc11!!!), 2 cores, 8 GB of memory and no spark cluster; make sure you specify the environment script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
 
   1. create a new project (clicking on the `+` at the bottom right, "Add new projetc"), and call it `statistics-tutorial-ICTP`;
 
