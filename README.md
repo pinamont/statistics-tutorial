@@ -36,7 +36,7 @@ There are two main ways to run this tutorial: Binder and SWAN.
 
 <!-- [gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git -->
 
-[![SWAN](https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png)](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git)
+[![SWAN](https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_100.png)](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git)
 
 [SWAN](https://swan.web.cern.ch/swan/) - CERN account needed:
 
