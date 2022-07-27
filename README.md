@@ -53,25 +53,15 @@ There are two main ways to run this tutorial: Binder and SWAN.
   1. click on the banner above, or go to [https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git);
   
   1. configure an environment with:
-    * software stack: 101 (NB: this is **not** the default - the code will not work properly with later stack)
-    * platform: CentOS7 (gcc8) as platform (NB: this is **not** the default - the code will not work properly with later )
-    * 2 cores, 8 GB of memory and no spark cluster (these ones should be set by default)
-    * environment script: the script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
+      + software stack: 101 (NB: this is **not** the default - the code will not work properly with later stack)
+      + platform: CentOS7 (gcc8) as platform (NB: this is **not** the default - the code will not work properly with later )
+      + 2 cores, 8 GB of memory and no spark cluster (these ones should be set by default)
+      + environment script: the script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
 
   1. click on `hello_world.ipynb`; this is the way to open a notebook;
 
   1. simply double-click on any notebook to open it; cell execution is performed with `Ctrl`+`Enter`.
     
-
-
-<!--   1. go to [https://swan-k8s.cern.ch/hub/spawn](https://swan-k8s.cern.ch/hub/spawn); -->
-<!--   1. create a new project (clicking on the `+` at the bottom right, "Add new projetc"), and call it `statistics-tutorial-ICTP`; -->
-<!--   1. from a SWAN terminal window (which you can open clicking on the `>_` icon on the top right of the webpage), go to the `$CERNBOX_HOME/SWAN_projects/statistics-tutorial-ICTP` directory and checkout the repository with: -->
-<!--           git clone git@github.com:pinamont/statistics-tutorial.git -->
-<!--       or -->
-<!--           git clone https://github.com/pinamont/statistics-tutorial.git -->
-<!--   1. now click on the `statistics-tutorial` and finally  -->
-
 
 ### Step by step
 
