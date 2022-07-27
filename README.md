@@ -52,7 +52,11 @@ There are two main ways to run this tutorial: Binder and SWAN.
 
   1. click on the banner above, or go to [https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git](https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/pinamont/statistics-tutorial.git);
   
-  1. configure an environment with the software stack 101, CentOS7 (gcc8) as platform (NB: this is **not** the default, so you need to change to this - **don't use** the default gcc11!!!), 2 cores, 8 GB of memory and no spark cluster; make sure you specify the environment script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
+  1. configure an environment with:
+    * software stack: 101 (NB: this is **not** the default - the code will not work properly with later stack)
+    * platform: CentOS7 (gcc8) as platform (NB: this is **not** the default - the code will not work properly with later )
+    * 2 cores, 8 GB of memory and no spark cluster (these ones should be set by default)
+    * environment script: the script you created, i.e. `$CERNBOX_HOME/SWAN_projects/config.sh`
 
   1. click on `hello_world.ipynb`; this is the way to open a notebook;
 
